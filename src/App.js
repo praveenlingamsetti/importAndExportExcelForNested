@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import * as XLSX from "xlsx";
 import { saveAs } from "file-saver";
-
+// for generating excel file for exporting here nested data in list of objected is stored as comma separated to excel file
 function generateAndDownloadExcel() {
   const data = {
     name: "Premium Quality",

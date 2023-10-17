@@ -7,6 +7,11 @@ const App = () => {
   return (
     <div>
       <Order />
+      <br />
+      <br />
+      <div className="text-center">
+        <h1>products</h1> <Products />
+      </div>
     </div>
   );
 };
